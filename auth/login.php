@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $_SESSION["usuario"] = $user["nombre_usuario"];
         header("Location: ../views/dashboard.php");
     } else {
+        header("Location: ../views/login.php?error=error_user");
         $error = "Usuario o clave incorrectos";
     }
 }
