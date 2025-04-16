@@ -1,2 +1,2 @@
 #gitignore
-*.db.php
+config.php
