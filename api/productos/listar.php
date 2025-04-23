@@ -20,6 +20,5 @@ try {
         "status" => "error",
         "message" => "Error al obtener productos",
         "error" => $e->getMessage()
-       
     ]);
 }
