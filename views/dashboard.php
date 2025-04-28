@@ -33,7 +33,9 @@ if (!isset($_SESSION["usuario"])) {
 
 
         <div class="content">
-            <ul>
+        <p> Hola buenas tardes, bienvenido al sistema de gestión de ventas. Aquí podrás gestionar tus productos, usuarios y pedidos de manera eficiente. A continuación, te mostramos algunas de las funcionalidades que puedes utilizar:</p>
+        </p>
+        <ul>
                 <li>Ventas<img class="img-adjust" src="../assets/img/ventas.jpg" alt="">
                 </li>
                 <li>
